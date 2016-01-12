@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    
+    NSLog(@"首次登陆");
     NSLog(@"123");
 }
 
