@@ -13,6 +13,7 @@
 #import "JHAddView.h"
 #import "JHDiscoverView.h"
 #import "JHMeView.h"
+#import "JHMapView.h"
 
 @interface AppDelegate ()
 
@@ -54,7 +55,12 @@
     
     
     homeView.viewControllers = @[home,msgView,addView,disCoverView,meView];
-    self.window.rootViewController = homeView;
+    
+    UINavigationController *nav = [UINavigationController new];
+    [nav pushViewController:homeView animated:YES];
+    
+    JHMapView *mapView = [[JHMapView alloc] init];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
 
     return YES;

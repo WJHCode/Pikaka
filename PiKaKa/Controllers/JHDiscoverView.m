@@ -9,6 +9,7 @@
 #import "JHDiscoverView.h"
 
 @interface JHDiscoverView ()
+@property(nonatomic, strong)UILabel *label;
 
 @end
 
@@ -17,21 +18,41 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    self.label = [[UILabel alloc] init];
+    UIFont *font = [UIFont systemFontOfSize:32];
+    [self.label setFont:font];
+    [self.label setTextColor:[UIColor redColor]];
+    [self.label setText:@"欢迎来到我的世界，我的世界里有各种各样的神奇的事情，又让你惊奇的，又惊讶的，有惊吓的！！！"];
+    [self.label sizeToFit];
+    CGSize labelSize = [self.label.text sizeWithFont:font];
+    CGFloat offSet = labelSize.width;
+    
+    self.label.frame = CGRectMake(50, 69, offSet, 20);
+    [UIView animateWithDuration:10.0 delay:0 options:UIViewAnimationOptionRepeat|UIViewAnimationOptionTransitionFlipFromRight|UIViewAnimationOptionCurveLinear animations:^{
+        self.label.transform = CGAffineTransformMakeTranslation(-offSet, 0);
+    } completion:^(BOOL finished) {
+        ;
+    }];
+    [self.view addSubview:self.label];
 }
-*/
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [self.label removeFromSuperview];
+    [self.label.layer removeAllAnimations];
+}
+
 
 @end

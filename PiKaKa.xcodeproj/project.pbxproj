@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C791DE01C51C789002F899C /* JHV1234.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C791DDF1C51C789002F899C /* JHV1234.m */; };
+		4C791DE21C51CAE7002F899C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C791DE11C51CAE7002F899C /* CoreLocation.framework */; };
+		4C791DE41C51CB0D002F899C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C791DE31C51CB0D002F899C /* MapKit.framework */; };
 		4C857F331BF1D76300328C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C857F321BF1D76300328C51 /* main.m */; };
 		4C857F3E1BF1D76300328C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C857F3D1BF1D76300328C51 /* Assets.xcassets */; };
 		4C857F411BF1D76300328C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C857F3F1BF1D76300328C51 /* LaunchScreen.storyboard */; };
 		4C857F4C1BF1D76300328C51 /* PiKaKaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C857F4B1BF1D76300328C51 /* PiKaKaTests.m */; };
 		4C857F571BF1D76300328C51 /* PiKaKaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C857F561BF1D76300328C51 /* PiKaKaUITests.m */; };
 		4C9E8CF01C2BC10E00A8B206 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C9E8CEF1C2BC10E00A8B206 /* Property List.plist */; };
+		4CA9B17F1C4796F3006E5F67 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA9B17E1C4796F3006E5F67 /* BaiduMapAPI_Map.framework */; };
+		4CA9B1851C47A4B0006E5F67 /* JHPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9B1841C47A4B0006E5F67 /* JHPins.m */; };
+		4CBC1E5D1C495FA800447D31 /* JHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC1E5C1C495FA800447D31 /* JHBaseView.m */; };
+		4CBC1E601C495FBB00447D31 /* JHBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC1E5F1C495FBB00447D31 /* JHBaseButton.m */; };
+		4CBC1E631C495FD300447D31 /* JHBaseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC1E621C495FD300447D31 /* JHBaseLabel.m */; };
+		4CBC1E661C495FF000447D31 /* JHBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC1E651C495FF000447D31 /* JHBaseImageView.m */; };
+		4CBC1E691C49605200447D31 /* JHHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC1E681C49605200447D31 /* JHHomeView.m */; };
+		4CBC1E6C1C49621500447D31 /* JHHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC1E6B1C49621500447D31 /* JHHomeViewModel.m */; };
+		4CC2BC951C4627C6008D0343 /* JHMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2BC941C4627C6008D0343 /* JHMapView.m */; };
 		4CD3CE9F1C3A461800F8B2E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3CE9E1C3A461800F8B2E6 /* AppDelegate.m */; };
 		4CD3CEC21C3A4D5000F8B2E6 /* JHAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3CEAD1C3A4D5000F8B2E6 /* JHAddView.m */; };
 		4CD3CEC31C3A4D5000F8B2E6 /* JHDiscoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3CEAF1C3A4D5000F8B2E6 /* JHDiscoverView.m */; };
 		4CD3CEC41C3A4D5000F8B2E6 /* JHHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3CEB11C3A4D5000F8B2E6 /* JHHomeTabBarController.m */; };
-		4CD3CEC51C3A4D5000F8B2E6 /* JHHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3CEB31C3A4D5000F8B2E6 /* JHHomeView.m */; };
 		4CD3CEC61C3A4D5000F8B2E6 /* JHMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3CEB51C3A4D5000F8B2E6 /* JHMessageView.m */; };
 		4CD3CEC71C3A4D5000F8B2E6 /* JHMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3CEB71C3A4D5000F8B2E6 /* JHMeView.m */; };
 		4CD3CEC81C3A4D5000F8B2E6 /* JHBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3CEBA1C3A4D5000F8B2E6 /* JHBaseTabBarController.m */; };
@@ -84,6 +95,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C791DDE1C51C789002F899C /* JHV1234.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHV1234.h; sourceTree = "<group>"; };
+		4C791DDF1C51C789002F899C /* JHV1234.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHV1234.m; sourceTree = "<group>"; };
+		4C791DE11C51CAE7002F899C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4C791DE31C51CB0D002F899C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4C857F2E1BF1D76300328C51 /* PiKaKa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiKaKa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C857F321BF1D76300328C51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C857F3D1BF1D76300328C51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +111,24 @@
 		4C857F561BF1D76300328C51 /* PiKaKaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiKaKaUITests.m; sourceTree = "<group>"; };
 		4C857F581BF1D76300328C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9E8CEF1C2BC10E00A8B206 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		4CA9B17D1C478A48006E5F67 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4CA9B17E1C4796F3006E5F67 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		4CA9B1831C47A4B0006E5F67 /* JHPins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPins.h; sourceTree = "<group>"; };
+		4CA9B1841C47A4B0006E5F67 /* JHPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPins.m; sourceTree = "<group>"; };
+		4CBC1E5B1C495FA800447D31 /* JHBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseView.h; sourceTree = "<group>"; };
+		4CBC1E5C1C495FA800447D31 /* JHBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseView.m; sourceTree = "<group>"; };
+		4CBC1E5E1C495FBB00447D31 /* JHBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseButton.h; sourceTree = "<group>"; };
+		4CBC1E5F1C495FBB00447D31 /* JHBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseButton.m; sourceTree = "<group>"; };
+		4CBC1E611C495FD300447D31 /* JHBaseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseLabel.h; sourceTree = "<group>"; };
+		4CBC1E621C495FD300447D31 /* JHBaseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseLabel.m; sourceTree = "<group>"; };
+		4CBC1E641C495FF000447D31 /* JHBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseImageView.h; sourceTree = "<group>"; };
+		4CBC1E651C495FF000447D31 /* JHBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseImageView.m; sourceTree = "<group>"; };
+		4CBC1E671C49605200447D31 /* JHHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHomeView.h; sourceTree = "<group>"; };
+		4CBC1E681C49605200447D31 /* JHHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHomeView.m; sourceTree = "<group>"; };
+		4CBC1E6A1C49621500447D31 /* JHHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHHomeViewModel.h; path = PiKaKa/Controllers/JHHomeViewModel.h; sourceTree = SOURCE_ROOT; };
+		4CBC1E6B1C49621500447D31 /* JHHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHHomeViewModel.m; path = PiKaKa/Controllers/JHHomeViewModel.m; sourceTree = SOURCE_ROOT; };
+		4CC2BC931C4627C6008D0343 /* JHMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMapView.h; sourceTree = "<group>"; };
+		4CC2BC941C4627C6008D0343 /* JHMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMapView.m; sourceTree = "<group>"; };
 		4CD3CE9D1C3A461800F8B2E6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CD3CE9E1C3A461800F8B2E6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4CD3CEAC1C3A4D5000F8B2E6 /* JHAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAddView.h; sourceTree = "<group>"; };
@@ -104,8 +137,6 @@
 		4CD3CEAF1C3A4D5000F8B2E6 /* JHDiscoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDiscoverView.m; sourceTree = "<group>"; };
 		4CD3CEB01C3A4D5000F8B2E6 /* JHHomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHomeTabBarController.h; sourceTree = "<group>"; };
 		4CD3CEB11C3A4D5000F8B2E6 /* JHHomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHomeTabBarController.m; sourceTree = "<group>"; };
-		4CD3CEB21C3A4D5000F8B2E6 /* JHHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHomeView.h; sourceTree = "<group>"; };
-		4CD3CEB31C3A4D5000F8B2E6 /* JHHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHomeView.m; sourceTree = "<group>"; };
 		4CD3CEB41C3A4D5000F8B2E6 /* JHMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMessageView.h; sourceTree = "<group>"; };
 		4CD3CEB51C3A4D5000F8B2E6 /* JHMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMessageView.m; sourceTree = "<group>"; };
 		4CD3CEB61C3A4D5000F8B2E6 /* JHMeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMeView.h; sourceTree = "<group>"; };
@@ -164,6 +195,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C791DE41C51CB0D002F899C /* MapKit.framework in Frameworks */,
+				4C791DE21C51CAE7002F899C /* CoreLocation.framework in Frameworks */,
+				4CA9B17F1C4796F3006E5F67 /* BaiduMapAPI_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +221,8 @@
 		4C857F251BF1D76300328C51 = {
 			isa = PBXGroup;
 			children = (
+				4C791DE31C51CB0D002F899C /* MapKit.framework */,
+				4C791DE11C51CAE7002F899C /* CoreLocation.framework */,
 				4C857F301BF1D76300328C51 /* PiKaKa */,
 				4C857F4A1BF1D76300328C51 /* PiKaKaTests */,
 				4C857F551BF1D76300328C51 /* PiKaKaUITests */,
@@ -207,8 +243,10 @@
 		4C857F301BF1D76300328C51 /* PiKaKa */ = {
 			isa = PBXGroup;
 			children = (
-				4CD3CEAB1C3A4D5000F8B2E6 /* Controllers */,
+				4CA9B17E1C4796F3006E5F67 /* BaiduMapAPI_Map.framework */,
 				4CD3CEB81C3A4D5000F8B2E6 /* CoreCompoments */,
+				4CC2BC8C1C46263D008D0343 /* Map */,
+				4CD3CEAB1C3A4D5000F8B2E6 /* Controllers */,
 				4CD3CEBF1C3A4D5000F8B2E6 /* Models */,
 				4CD3CEC01C3A4D5000F8B2E6 /* Others */,
 				4CD3CEC11C3A4D5000F8B2E6 /* Views */,
@@ -228,6 +266,7 @@
 				4CD3CE9D1C3A461800F8B2E6 /* AppDelegate.h */,
 				4CD3CE9E1C3A461800F8B2E6 /* AppDelegate.m */,
 				4C857F321BF1D76300328C51 /* main.m */,
+				4CA9B17D1C478A48006E5F67 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -250,6 +289,17 @@
 			path = PiKaKaUITests;
 			sourceTree = "<group>";
 		};
+		4CC2BC8C1C46263D008D0343 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2BC931C4627C6008D0343 /* JHMapView.h */,
+				4CC2BC941C4627C6008D0343 /* JHMapView.m */,
+				4CA9B1831C47A4B0006E5F67 /* JHPins.h */,
+				4CA9B1841C47A4B0006E5F67 /* JHPins.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		4CD3CEAB1C3A4D5000F8B2E6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,12 +309,14 @@
 				4CD3CEAF1C3A4D5000F8B2E6 /* JHDiscoverView.m */,
 				4CD3CEB01C3A4D5000F8B2E6 /* JHHomeTabBarController.h */,
 				4CD3CEB11C3A4D5000F8B2E6 /* JHHomeTabBarController.m */,
-				4CD3CEB21C3A4D5000F8B2E6 /* JHHomeView.h */,
-				4CD3CEB31C3A4D5000F8B2E6 /* JHHomeView.m */,
 				4CD3CEB41C3A4D5000F8B2E6 /* JHMessageView.h */,
 				4CD3CEB51C3A4D5000F8B2E6 /* JHMessageView.m */,
 				4CD3CEB61C3A4D5000F8B2E6 /* JHMeView.h */,
 				4CD3CEB71C3A4D5000F8B2E6 /* JHMeView.m */,
+				4CBC1E671C49605200447D31 /* JHHomeView.h */,
+				4CBC1E681C49605200447D31 /* JHHomeView.m */,
+				4C791DDE1C51C789002F899C /* JHV1234.h */,
+				4C791DDF1C51C789002F899C /* JHV1234.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -278,6 +330,14 @@
 				4CD3CEBC1C3A4D5000F8B2E6 /* JHBaseTableViewController.m */,
 				4CD3CEBD1C3A4D5000F8B2E6 /* JHBaseViewController.h */,
 				4CD3CEBE1C3A4D5000F8B2E6 /* JHBaseViewController.m */,
+				4CBC1E5B1C495FA800447D31 /* JHBaseView.h */,
+				4CBC1E5C1C495FA800447D31 /* JHBaseView.m */,
+				4CBC1E5E1C495FBB00447D31 /* JHBaseButton.h */,
+				4CBC1E5F1C495FBB00447D31 /* JHBaseButton.m */,
+				4CBC1E611C495FD300447D31 /* JHBaseLabel.h */,
+				4CBC1E621C495FD300447D31 /* JHBaseLabel.m */,
+				4CBC1E641C495FF000447D31 /* JHBaseImageView.h */,
+				4CBC1E651C495FF000447D31 /* JHBaseImageView.m */,
 			);
 			path = CoreCompoments;
 			sourceTree = "<group>";
@@ -285,6 +345,8 @@
 		4CD3CEBF1C3A4D5000F8B2E6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4CBC1E6A1C49621500447D31 /* JHHomeViewModel.h */,
+				4CBC1E6B1C49621500447D31 /* JHHomeViewModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -529,14 +591,22 @@
 				4CD3CEC61C3A4D5000F8B2E6 /* JHMessageView.m in Sources */,
 				4CD3CECA1C3A4D5000F8B2E6 /* JHBaseViewController.m in Sources */,
 				4CD3CEC21C3A4D5000F8B2E6 /* JHAddView.m in Sources */,
+				4CBC1E5D1C495FA800447D31 /* JHBaseView.m in Sources */,
 				4C857F331BF1D76300328C51 /* main.m in Sources */,
+				4CBC1E631C495FD300447D31 /* JHBaseLabel.m in Sources */,
+				4CBC1E661C495FF000447D31 /* JHBaseImageView.m in Sources */,
 				4CD3CEC41C3A4D5000F8B2E6 /* JHHomeTabBarController.m in Sources */,
+				4CA9B1851C47A4B0006E5F67 /* JHPins.m in Sources */,
 				4CD3CEC91C3A4D5000F8B2E6 /* JHBaseTableViewController.m in Sources */,
 				4CD3CEC71C3A4D5000F8B2E6 /* JHMeView.m in Sources */,
 				4CD3CE9F1C3A461800F8B2E6 /* AppDelegate.m in Sources */,
 				4CD3CEC31C3A4D5000F8B2E6 /* JHDiscoverView.m in Sources */,
-				4CD3CEC51C3A4D5000F8B2E6 /* JHHomeView.m in Sources */,
+				4CC2BC951C4627C6008D0343 /* JHMapView.m in Sources */,
+				4CBC1E601C495FBB00447D31 /* JHBaseButton.m in Sources */,
 				4CD3CEC81C3A4D5000F8B2E6 /* JHBaseTabBarController.m in Sources */,
+				4C791DE01C51C789002F899C /* JHV1234.m in Sources */,
+				4CBC1E691C49605200447D31 /* JHHomeView.m in Sources */,
+				4CBC1E6C1C49621500447D31 /* JHHomeViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,6 +739,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PiKaKa",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pikaka/PrefixHeader.pch";
 				INFOPLIST_FILE = PiKaKa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.PiKaKa;
@@ -680,6 +756,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PiKaKa",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pikaka/PrefixHeader.pch";
 				INFOPLIST_FILE = PiKaKa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.PiKaKa;

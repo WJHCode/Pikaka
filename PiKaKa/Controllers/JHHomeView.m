@@ -2,7 +2,7 @@
 //  JHHomeView.m
 //  PiKaKa
 //
-//  Created by 王建华 on 16/1/4.
+//  Created by 王建华 on 16/1/16.
 //  Copyright © 2016年 王建华. All rights reserved.
 //
 
@@ -16,9 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
-    NSLog(@"首次登陆");
-    NSLog(@"123");
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,14 +24,23 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 0;
 }
-*/
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *reuseId = @"reuseId";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseId];
+    
+    if (!cell) {
+        cell = [[UITableViewCell alloc] init];
+        
+    }
+
+    return cell;
+}
 @end

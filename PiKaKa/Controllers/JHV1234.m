@@ -1,35 +1,33 @@
 //
-//  JHMeView.m
+//  JHV1234.m
 //  PiKaKa
 //
-//  Created by 王建华 on 16/1/4.
+//  Created by 王建华 on 16/1/22.
 //  Copyright © 2016年 王建华. All rights reserved.
 //
 
-#import "JHMeView.h"
 #import "JHV1234.h"
 
-@interface JHMeView ()
+@interface JHV1234 ()
 
 @end
 
-@implementation JHMeView
+@implementation JHV1234
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor purpleColor];
+    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor orangeColor];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    JHV1234 *jv = [JHV1234 new];
-//    [self.navigationController pushViewController:jv animated:YES];
-    [jv setModalTransitionStyle:UIModalTransitionStyleCoverVertical];
-    [self presentModalViewController:jv animated:YES];
+[self dismissViewControllerAnimated:YES completion:^{
+    NSLog(@"退出JHV控制器");
+}];
 }
 /*
 #pragma mark - Navigation
