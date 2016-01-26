@@ -1,38 +1,29 @@
 //
-//  JHV1234.m
+//  ContectDetail.m
 //  PiKaKa
 //
-//  Created by 王建华 on 16/1/22.
+//  Created by 王建华 on 16/1/26.
 //  Copyright © 2016年 王建华. All rights reserved.
 //
 
-#import "JHV1234.h"
+#import "ContectDetail.h"
 
-@interface JHV1234 ()
+@interface ContectDetail ()
 
 @end
 
-@implementation JHV1234
+@implementation ContectDetail
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor orangeColor];
-    
-    UIBarButtonItem *leftItems = [[UIBarButtonItem alloc] init];
-    [leftItems setTitle: @"返回"];
-    self.navigationItem.backBarButtonItem = leftItems;
+    self.view.backgroundColor = [UIColor blackColor];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-[self dismissViewControllerAnimated:YES completion:^{
-    NSLog(@"退出JHV控制器");
-}];
-}
+
 /*
 #pragma mark - Navigation
 

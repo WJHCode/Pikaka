@@ -60,7 +60,7 @@
     [nav pushViewController:homeView animated:YES];
     
     JHMapView *mapView = [[JHMapView alloc] init];
-    self.window.rootViewController = nav;
+    self.window.rootViewController = mapView;
     [self.window makeKeyAndVisible];
 
     return YES;

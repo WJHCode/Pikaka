@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3A8D6A1C5705C0007FD940 /* ContectDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A8D691C5705C0007FD940 /* ContectDetail.m */; };
 		4C791DE01C51C789002F899C /* JHV1234.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C791DDF1C51C789002F899C /* JHV1234.m */; };
 		4C791DE21C51CAE7002F899C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C791DE11C51CAE7002F899C /* CoreLocation.framework */; };
 		4C791DE41C51CB0D002F899C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C791DE31C51CB0D002F899C /* MapKit.framework */; };
@@ -95,6 +96,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C3A8D681C5705C0007FD940 /* ContectDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContectDetail.h; sourceTree = "<group>"; };
+		4C3A8D691C5705C0007FD940 /* ContectDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContectDetail.m; sourceTree = "<group>"; };
 		4C791DDE1C51C789002F899C /* JHV1234.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHV1234.h; sourceTree = "<group>"; };
 		4C791DDF1C51C789002F899C /* JHV1234.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHV1234.m; sourceTree = "<group>"; };
 		4C791DE11C51CAE7002F899C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -317,6 +320,8 @@
 				4CBC1E681C49605200447D31 /* JHHomeView.m */,
 				4C791DDE1C51C789002F899C /* JHV1234.h */,
 				4C791DDF1C51C789002F899C /* JHV1234.m */,
+				4C3A8D681C5705C0007FD940 /* ContectDetail.h */,
+				4C3A8D691C5705C0007FD940 /* ContectDetail.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -605,6 +610,7 @@
 				4CBC1E601C495FBB00447D31 /* JHBaseButton.m in Sources */,
 				4CD3CEC81C3A4D5000F8B2E6 /* JHBaseTabBarController.m in Sources */,
 				4C791DE01C51C789002F899C /* JHV1234.m in Sources */,
+				4C3A8D6A1C5705C0007FD940 /* ContectDetail.m in Sources */,
 				4CBC1E691C49605200447D31 /* JHHomeView.m in Sources */,
 				4CBC1E6C1C49621500447D31 /* JHHomeViewModel.m in Sources */,
 			);

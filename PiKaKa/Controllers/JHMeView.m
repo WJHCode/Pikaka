@@ -8,6 +8,7 @@
 
 #import "JHMeView.h"
 #import "JHV1234.h"
+#import "ContectDetail.h"
 
 @interface JHMeView ()
 
@@ -18,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor purpleColor];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,9 +29,20 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     JHV1234 *jv = [JHV1234 new];
-//    [self.navigationController pushViewController:jv animated:YES];
-    [jv setModalTransitionStyle:UIModalTransitionStyleCoverVertical];
-    [self presentModalViewController:jv animated:YES];
+    jv.navigationItem.title = @"你好啊";
+    UIBarButtonItem *rightIterm = [[UIBarButtonItem alloc] initWithTitle:@"编辑" style:UIBarButtonItemStylePlain target:self action:@selector(editContext)];
+    
+    UIBarButtonItem *leftItems = [[UIBarButtonItem alloc] init];
+    [leftItems setTitle: @"返回"];
+    
+    jv.navigationItem.rightBarButtonItem = rightIterm;
+    self.navigationItem.backBarButtonItem = leftItems;
+    
+    [self.navigationController pushViewController:jv animated:YES];
+    
+    //model出一个控制器
+//    [jv setModalTransitionStyle:UIModalTransitionStylePartialCurl];
+//    [self presentModalViewController:jv animated:YES];
 }
 /*
 #pragma mark - Navigation
@@ -41,4 +54,9 @@
 }
 */
 
+
+-(void) editContext{
+    ContectDetail *contextDetail = [ContectDetail new];
+    [self.navigationController pushViewController:contextDetail animated:YES];
+}
 @end

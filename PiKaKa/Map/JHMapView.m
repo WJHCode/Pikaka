@@ -31,15 +31,15 @@
     }
     
     //获取用户位置
-    self.clmgr = [[CLLocationManager alloc] init];
-    if ([CLLocationManager authorizationStatus] != kCLAuthorizationStatusAuthorizedAlways) {
-        [self.clmgr requestAlwaysAuthorization];
-    }
-    
-    self.clmgr.desiredAccuracy = kCLLocationAccuracyBest;
-    self.clmgr.delegate = self;
-    
-    [self.clmgr startUpdatingLocation];
+//    self.clmgr = [[CLLocationManager alloc] init];
+//    if ([CLLocationManager authorizationStatus] != kCLAuthorizationStatusAuthorizedAlways) {
+//        [self.clmgr requestAlwaysAuthorization];
+//    }
+//    
+//    self.clmgr.desiredAccuracy = kCLLocationAccuracyBest;
+//    self.clmgr.delegate = self;
+//    
+//    [self.clmgr startUpdatingLocation];
     
     
     
@@ -53,6 +53,9 @@
     self.mapView.zoomEnabled = YES;
     self.mapView.scrollEnabled = YES;
     
+    MKCoordinateSpan span = MKCoordinateSpanMake(0.01, 0.01);
+    
+    
     [self.view addSubview:self.mapView];
     
 }
@@ -62,6 +65,8 @@
     CLLocation *location = [locations lastObject];
     self.latitide = location.coordinate.latitude;//维度
     self.longitude = location.coordinate.longitude;//经度
+    NSLog(@"-----维度：%f", self.latitide);
+    NSLog(@"-----经度：%f",self.longitude);
     
     //设置大头针
     JHPins *pin = [[JHPins alloc] init];
@@ -78,6 +83,13 @@
     
 }
 
+-(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation{
+
+    CLLocationCoordinate2D location = userLocation.coordinate;
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(location, 250, 250);
+    
+    [self.mapView setRegion:region animated:YES];
+}
 
 
 @end
