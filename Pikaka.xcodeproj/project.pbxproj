@@ -277,10 +277,10 @@
 			children = (
 				4C9EA5181C96A63D007832DA /* AFNetworking */,
 				4C9EA52C1C96A63D007832DA /* Assets.xcassets */,
+				4C9EA55B1C96A63D007832DA /* Others */,
 				4C9EA52D1C96A63D007832DA /* Controllers */,
 				4C9EA5401C96A63D007832DA /* CoreCompoments */,
 				4C9EA55A1C96A63D007832DA /* Models */,
-				4C9EA55B1C96A63D007832DA /* Others */,
 				4C9EA55C1C96A63D007832DA /* tabbar */,
 				4C9EA5861C96A63D007832DA /* UpGrades */,
 				4C9EA50E1C96A5BC007832DA /* BaiduMapAPI_Map.framework */,
@@ -350,9 +350,9 @@
 		4C9EA52D1C96A63D007832DA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4C9EA5301C96A63D007832DA /* JHAddView.h */,
 				4C9EA52E1C96A63D007832DA /* ContectDetail.h */,
 				4C9EA52F1C96A63D007832DA /* ContectDetail.m */,
-				4C9EA5301C96A63D007832DA /* JHAddView.h */,
 				4C9EA5311C96A63D007832DA /* JHAddView.m */,
 				4C9EA5321C96A63D007832DA /* JHDiscoverView.h */,
 				4C9EA5331C96A63D007832DA /* JHDiscoverView.m */,
