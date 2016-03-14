@@ -1,12 +1,19 @@
 //
 //  AppDelegate.m
-//  Pikaka
+//  PiKaKa
 //
-//  Created by 王建华 on 16/3/14.
-//  Copyright © 2016年 王建华. All rights reserved.
+//  Created by 王建华 on 15/11/10.
+//  Copyright © 2015年 王建华. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "JHHomeTabBarController.h"
+#import "JHHomeView.h"
+#import "JHMessageView.h"
+#import "JHAddView.h"
+#import "JHDiscoverView.h"
+#import "JHMeView.h"
+#import "JHMapView.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +23,47 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor purpleColor];
+    JHHomeTabBarController *homeView = [JHHomeTabBarController new];
+    
+    
+    JHHomeView *home = [JHHomeView new];
+    home.tabBarItem.title = @"首页";
+    home.tabBarItem.image = [UIImage imageNamed:@"tabbar_home"];
+    home.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabbar_home_highlighted"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+
+    JHMessageView *msgView = [JHMessageView new];
+    msgView.tabBarItem.title = @"消息";
+    msgView.tabBarItem.image = [UIImage imageNamed:@"tabbar_message_center"];
+    msgView.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_message_center_highlighted"];
+    
+    JHAddView *addView = [JHAddView new];
+    addView.tabBarItem.image = [UIImage imageNamed:@"tabbar_compose_icon_add"];
+    addView.tabBarItem.selectedImage = [[UIImage imageNamed:@"tabbar_compose_icon_add_highlighted"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    JHDiscoverView *disCoverView = [JHDiscoverView new];
+    disCoverView.tabBarItem.title = @"发现";
+    disCoverView.tabBarItem.image = [UIImage imageNamed:@"tabbar_discover"];
+    disCoverView.tabBarItem.image = [UIImage imageNamed:@"tabbar_discover_highlighted"];
+    
+    JHMeView *meView = [JHMeView new];
+    meView.tabBarItem.title = @"我";
+    meView.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile"];
+    msgView.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_profile_highlighted"];
+    
+    
+    
+    homeView.viewControllers = @[home,msgView,addView,disCoverView,meView];
+    
+    UINavigationController *nav = [UINavigationController new];
+    [nav pushViewController:homeView animated:YES];
+    
+    JHMapView *mapView = [[JHMapView alloc] init];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
