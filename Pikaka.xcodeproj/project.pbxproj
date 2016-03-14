@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C9EA4D91C96A30E007832DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA4D81C96A30E007832DA /* main.m */; };
+		4C9EA4DC1C96A30E007832DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA4DB1C96A30E007832DA /* AppDelegate.m */; };
+		4C9EA4DF1C96A30E007832DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA4DE1C96A30E007832DA /* ViewController.m */; };
+		4C9EA4E21C96A30E007832DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EA4E01C96A30E007832DA /* Main.storyboard */; };
+		4C9EA4E41C96A30E007832DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EA4E31C96A30E007832DA /* Assets.xcassets */; };
+		4C9EA4E71C96A30E007832DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EA4E51C96A30E007832DA /* LaunchScreen.storyboard */; };
+		4C9EA4F21C96A30E007832DA /* PikakaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA4F11C96A30E007832DA /* PikakaTests.m */; };
+		4C9EA4FD1C96A30E007832DA /* PikakaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA4FC1C96A30E007832DA /* PikakaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C9EA4EE1C96A30E007832DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9EA4CC1C96A30E007832DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9EA4D31C96A30E007832DA;
+			remoteInfo = Pikaka;
+		};
+		4C9EA4F91C96A30E007832DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9EA4CC1C96A30E007832DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9EA4D31C96A30E007832DA;
+			remoteInfo = Pikaka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C9EA4D41C96A30E007832DA /* Pikaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pikaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9EA4D81C96A30E007832DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C9EA4DA1C96A30E007832DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C9EA4DB1C96A30E007832DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C9EA4DD1C96A30E007832DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C9EA4DE1C96A30E007832DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C9EA4E11C96A30E007832DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C9EA4E31C96A30E007832DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C9EA4E61C96A30E007832DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C9EA4E81C96A30E007832DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9EA4ED1C96A30E007832DA /* PikakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9EA4F11C96A30E007832DA /* PikakaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PikakaTests.m; sourceTree = "<group>"; };
+		4C9EA4F31C96A30E007832DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9EA4F81C96A30E007832DA /* PikakaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikakaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9EA4FC1C96A30E007832DA /* PikakaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PikakaUITests.m; sourceTree = "<group>"; };
+		4C9EA4FE1C96A30E007832DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9EA4D11C96A30E007832DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9EA4EA1C96A30E007832DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9EA4F51C96A30E007832DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C9EA4CB1C96A30E007832DA = {
+			isa = PBXGroup;
+			children = (
+				4C9EA4D61C96A30E007832DA /* Pikaka */,
+				4C9EA4F01C96A30E007832DA /* PikakaTests */,
+				4C9EA4FB1C96A30E007832DA /* PikakaUITests */,
+				4C9EA4D51C96A30E007832DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9EA4D51C96A30E007832DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C9EA4D41C96A30E007832DA /* Pikaka.app */,
+				4C9EA4ED1C96A30E007832DA /* PikakaTests.xctest */,
+				4C9EA4F81C96A30E007832DA /* PikakaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9EA4D61C96A30E007832DA /* Pikaka */ = {
+			isa = PBXGroup;
+			children = (
+				4C9EA4DA1C96A30E007832DA /* AppDelegate.h */,
+				4C9EA4DB1C96A30E007832DA /* AppDelegate.m */,
+				4C9EA4DD1C96A30E007832DA /* ViewController.h */,
+				4C9EA4DE1C96A30E007832DA /* ViewController.m */,
+				4C9EA4E01C96A30E007832DA /* Main.storyboard */,
+				4C9EA4E31C96A30E007832DA /* Assets.xcassets */,
+				4C9EA4E51C96A30E007832DA /* LaunchScreen.storyboard */,
+				4C9EA4E81C96A30E007832DA /* Info.plist */,
+				4C9EA4D71C96A30E007832DA /* Supporting Files */,
+			);
+			path = Pikaka;
+			sourceTree = "<group>";
+		};
+		4C9EA4D71C96A30E007832DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C9EA4D81C96A30E007832DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C9EA4F01C96A30E007832DA /* PikakaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C9EA4F11C96A30E007832DA /* PikakaTests.m */,
+				4C9EA4F31C96A30E007832DA /* Info.plist */,
+			);
+			path = PikakaTests;
+			sourceTree = "<group>";
+		};
+		4C9EA4FB1C96A30E007832DA /* PikakaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C9EA4FC1C96A30E007832DA /* PikakaUITests.m */,
+				4C9EA4FE1C96A30E007832DA /* Info.plist */,
+			);
+			path = PikakaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C9EA4D31C96A30E007832DA /* Pikaka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9EA5011C96A30E007832DA /* Build configuration list for PBXNativeTarget "Pikaka" */;
+			buildPhases = (
+				4C9EA4D01C96A30E007832DA /* Sources */,
+				4C9EA4D11C96A30E007832DA /* Frameworks */,
+				4C9EA4D21C96A30E007832DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pikaka;
+			productName = Pikaka;
+			productReference = 4C9EA4D41C96A30E007832DA /* Pikaka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C9EA4EC1C96A30E007832DA /* PikakaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9EA5041C96A30E007832DA /* Build configuration list for PBXNativeTarget "PikakaTests" */;
+			buildPhases = (
+				4C9EA4E91C96A30E007832DA /* Sources */,
+				4C9EA4EA1C96A30E007832DA /* Frameworks */,
+				4C9EA4EB1C96A30E007832DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9EA4EF1C96A30E007832DA /* PBXTargetDependency */,
+			);
+			name = PikakaTests;
+			productName = PikakaTests;
+			productReference = 4C9EA4ED1C96A30E007832DA /* PikakaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C9EA4F71C96A30E007832DA /* PikakaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9EA5071C96A30E007832DA /* Build configuration list for PBXNativeTarget "PikakaUITests" */;
+			buildPhases = (
+				4C9EA4F41C96A30E007832DA /* Sources */,
+				4C9EA4F51C96A30E007832DA /* Frameworks */,
+				4C9EA4F61C96A30E007832DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9EA4FA1C96A30E007832DA /* PBXTargetDependency */,
+			);
+			name = PikakaUITests;
+			productName = PikakaUITests;
+			productReference = 4C9EA4F81C96A30E007832DA /* PikakaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9EA4CC1C96A30E007832DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王建华";
+				TargetAttributes = {
+					4C9EA4D31C96A30E007832DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6SJVNSE75P;
+					};
+					4C9EA4EC1C96A30E007832DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6SJVNSE75P;
+						TestTargetID = 4C9EA4D31C96A30E007832DA;
+					};
+					4C9EA4F71C96A30E007832DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6SJVNSE75P;
+						TestTargetID = 4C9EA4D31C96A30E007832DA;
+					};
+				};
+			};
+			buildConfigurationList = 4C9EA4CF1C96A30E007832DA /* Build configuration list for PBXProject "Pikaka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C9EA4CB1C96A30E007832DA;
+			productRefGroup = 4C9EA4D51C96A30E007832DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C9EA4D31C96A30E007832DA /* Pikaka */,
+				4C9EA4EC1C96A30E007832DA /* PikakaTests */,
+				4C9EA4F71C96A30E007832DA /* PikakaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C9EA4D21C96A30E007832DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9EA4E71C96A30E007832DA /* LaunchScreen.storyboard in Resources */,
+				4C9EA4E41C96A30E007832DA /* Assets.xcassets in Resources */,
+				4C9EA4E21C96A30E007832DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9EA4EB1C96A30E007832DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9EA4F61C96A30E007832DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9EA4D01C96A30E007832DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9EA4DF1C96A30E007832DA /* ViewController.m in Sources */,
+				4C9EA4DC1C96A30E007832DA /* AppDelegate.m in Sources */,
+				4C9EA4D91C96A30E007832DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9EA4E91C96A30E007832DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9EA4F21C96A30E007832DA /* PikakaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9EA4F41C96A30E007832DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9EA4FD1C96A30E007832DA /* PikakaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C9EA4EF1C96A30E007832DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9EA4D31C96A30E007832DA /* Pikaka */;
+			targetProxy = 4C9EA4EE1C96A30E007832DA /* PBXContainerItemProxy */;
+		};
+		4C9EA4FA1C96A30E007832DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9EA4D31C96A30E007832DA /* Pikaka */;
+			targetProxy = 4C9EA4F91C96A30E007832DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C9EA4E01C96A30E007832DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C9EA4E11C96A30E007832DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C9EA4E51C96A30E007832DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C9EA4E61C96A30E007832DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C9EA4FF1C96A30E007832DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C9EA5001C96A30E007832DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C9EA5021C96A30E007832DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pikaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.Pikaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C9EA5031C96A30E007832DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pikaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.Pikaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C9EA5051C96A30E007832DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PikakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.PikakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pikaka.app/Pikaka";
+			};
+			name = Debug;
+		};
+		4C9EA5061C96A30E007832DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PikakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.PikakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pikaka.app/Pikaka";
+			};
+			name = Release;
+		};
+		4C9EA5081C96A30E007832DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PikakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.PikakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pikaka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4C9EA5091C96A30E007832DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PikakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.PikakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pikaka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C9EA4CF1C96A30E007832DA /* Build configuration list for PBXProject "Pikaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9EA4FF1C96A30E007832DA /* Debug */,
+				4C9EA5001C96A30E007832DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9EA5011C96A30E007832DA /* Build configuration list for PBXNativeTarget "Pikaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9EA5021C96A30E007832DA /* Debug */,
+				4C9EA5031C96A30E007832DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C9EA5041C96A30E007832DA /* Build configuration list for PBXNativeTarget "PikakaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9EA5051C96A30E007832DA /* Debug */,
+				4C9EA5061C96A30E007832DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C9EA5071C96A30E007832DA /* Build configuration list for PBXNativeTarget "PikakaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9EA5081C96A30E007832DA /* Debug */,
+				4C9EA5091C96A30E007832DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9EA4CC1C96A30E007832DA /* Project object */;
+}
