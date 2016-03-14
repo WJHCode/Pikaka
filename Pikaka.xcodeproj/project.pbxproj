@@ -14,8 +14,6 @@
 		4C9EA5111C96A5BC007832DA /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9EA50E1C96A5BC007832DA /* BaiduMapAPI_Map.framework */; };
 		4C9EA5121C96A5BC007832DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EA50F1C96A5BC007832DA /* Assets.xcassets */; };
 		4C9EA5131C96A5BC007832DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EA5101C96A5BC007832DA /* LaunchScreen.storyboard */; };
-		4C9EA5161C96A5E2007832DA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9EA5141C96A5E2007832DA /* MapKit.framework */; };
-		4C9EA5171C96A5E2007832DA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9EA5151C96A5E2007832DA /* CoreLocation.framework */; };
 		4C9EA58B1C96A63D007832DA /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA51A1C96A63D007832DA /* AFHTTPRequestOperation.m */; };
 		4C9EA58C1C96A63D007832DA /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA51C1C96A63D007832DA /* AFHTTPRequestOperationManager.m */; };
 		4C9EA58D1C96A63D007832DA /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA51E1C96A63D007832DA /* AFHTTPSessionManager.m */; };
@@ -45,8 +43,6 @@
 		4C9EA5A51C96A63D007832DA /* JHBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA5501C96A63D007832DA /* JHBaseTextField.m */; };
 		4C9EA5A61C96A63D007832DA /* JHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA5521C96A63D007832DA /* JHBaseView.m */; };
 		4C9EA5A71C96A63D007832DA /* JHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA5541C96A63D007832DA /* JHBaseViewController.m */; };
-		4C9EA5A81C96A63D007832DA /* JHMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA5571C96A63D007832DA /* JHMapView.m */; };
-		4C9EA5A91C96A63D007832DA /* JHPins.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA5591C96A63D007832DA /* JHPins.m */; };
 		4C9EA5AA1C96A63D007832DA /* tabbar_compose_icon_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EA55D1C96A63D007832DA /* tabbar_compose_icon_add@2x.png */; };
 		4C9EA5AB1C96A63D007832DA /* tabbar_compose_icon_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EA55E1C96A63D007832DA /* tabbar_compose_icon_add@3x.png */; };
 		4C9EA5AC1C96A63D007832DA /* tabbar_compose_icon_add_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EA55F1C96A63D007832DA /* tabbar_compose_icon_add_highlighted@2x.png */; };
@@ -125,8 +121,6 @@
 		4C9EA50E1C96A5BC007832DA /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
 		4C9EA50F1C96A5BC007832DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C9EA5101C96A5BC007832DA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4C9EA5141C96A5E2007832DA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapKit.framework; sourceTree = "<group>"; };
-		4C9EA5151C96A5E2007832DA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreLocation.framework; sourceTree = "<group>"; };
 		4C9EA5191C96A63D007832DA /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		4C9EA51A1C96A63D007832DA /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		4C9EA51B1C96A63D007832DA /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -185,10 +179,6 @@
 		4C9EA5521C96A63D007832DA /* JHBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseView.m; sourceTree = "<group>"; };
 		4C9EA5531C96A63D007832DA /* JHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHBaseViewController.h; sourceTree = "<group>"; };
 		4C9EA5541C96A63D007832DA /* JHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHBaseViewController.m; sourceTree = "<group>"; };
-		4C9EA5561C96A63D007832DA /* JHMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHMapView.h; sourceTree = "<group>"; };
-		4C9EA5571C96A63D007832DA /* JHMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHMapView.m; sourceTree = "<group>"; };
-		4C9EA5581C96A63D007832DA /* JHPins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHPins.h; sourceTree = "<group>"; };
-		4C9EA5591C96A63D007832DA /* JHPins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPins.m; sourceTree = "<group>"; };
 		4C9EA55D1C96A63D007832DA /* tabbar_compose_icon_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add@2x.png"; sourceTree = "<group>"; };
 		4C9EA55E1C96A63D007832DA /* tabbar_compose_icon_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add@3x.png"; sourceTree = "<group>"; };
 		4C9EA55F1C96A63D007832DA /* tabbar_compose_icon_add_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add_highlighted@2x.png"; sourceTree = "<group>"; };
@@ -241,8 +231,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9EA5171C96A5E2007832DA /* CoreLocation.framework in Frameworks */,
-				4C9EA5161C96A5E2007832DA /* MapKit.framework in Frameworks */,
 				4C9EA5111C96A5BC007832DA /* BaiduMapAPI_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +255,6 @@
 		4C9EA4CB1C96A30E007832DA = {
 			isa = PBXGroup;
 			children = (
-				4C9EA5141C96A5E2007832DA /* MapKit.framework */,
-				4C9EA5151C96A5E2007832DA /* CoreLocation.framework */,
 				4C9EA4D61C96A30E007832DA /* Pikaka */,
 				4C9EA4F01C96A30E007832DA /* PikakaTests */,
 				4C9EA4FB1C96A30E007832DA /* PikakaUITests */,
@@ -293,7 +279,6 @@
 				4C9EA52C1C96A63D007832DA /* Assets.xcassets */,
 				4C9EA52D1C96A63D007832DA /* Controllers */,
 				4C9EA5401C96A63D007832DA /* CoreCompoments */,
-				4C9EA5551C96A63D007832DA /* Map */,
 				4C9EA55A1C96A63D007832DA /* Models */,
 				4C9EA55B1C96A63D007832DA /* Others */,
 				4C9EA55C1C96A63D007832DA /* tabbar */,
@@ -412,17 +397,6 @@
 				4C9EA5541C96A63D007832DA /* JHBaseViewController.m */,
 			);
 			path = CoreCompoments;
-			sourceTree = "<group>";
-		};
-		4C9EA5551C96A63D007832DA /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				4C9EA5561C96A63D007832DA /* JHMapView.h */,
-				4C9EA5571C96A63D007832DA /* JHMapView.m */,
-				4C9EA5581C96A63D007832DA /* JHPins.h */,
-				4C9EA5591C96A63D007832DA /* JHPins.m */,
-			);
-			path = Map;
 			sourceTree = "<group>";
 		};
 		4C9EA55A1C96A63D007832DA /* Models */ = {
@@ -688,7 +662,6 @@
 				4C9EA59D1C96A63D007832DA /* JHV1234.m in Sources */,
 				4C9EA50D1C96A5A6007832DA /* AppDelegate.m in Sources */,
 				4C9EA58D1C96A63D007832DA /* AFHTTPSessionManager.m in Sources */,
-				4C9EA5A91C96A63D007832DA /* JHPins.m in Sources */,
 				4C9EA59B1C96A63D007832DA /* JHMessageView.m in Sources */,
 				4C9EA58C1C96A63D007832DA /* AFHTTPRequestOperationManager.m in Sources */,
 				4C9EA5971C96A63D007832DA /* JHDiscoverView.m in Sources */,
@@ -702,7 +675,6 @@
 				4C9EA5D41C96A63D007832DA /* JHUpGrades.m in Sources */,
 				4C9EA5A41C96A63D007832DA /* JHBaseTableViewController.m in Sources */,
 				4C9EA5A11C96A63D007832DA /* JHBaseLabel.m in Sources */,
-				4C9EA5A81C96A63D007832DA /* JHMapView.m in Sources */,
 				4C9EA5A21C96A63D007832DA /* JHBaseScrollView.m in Sources */,
 				4C9EA58E1C96A63D007832DA /* AFNetworkReachabilityManager.m in Sources */,
 				4C9EA4D91C96A30E007832DA /* main.m in Sources */,
