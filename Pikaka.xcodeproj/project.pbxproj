@@ -86,6 +86,10 @@
 		4C9EA5D21C96A63D007832DA /* tabbar_profile_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EA5851C96A63D007832DA /* tabbar_profile_selected@3x.png */; };
 		4C9EA5D31C96A63D007832DA /* JHDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA5881C96A63D007832DA /* JHDBManager.m */; };
 		4C9EA5D41C96A63D007832DA /* JHUpGrades.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EA58A1C96A63D007832DA /* JHUpGrades.m */; };
+		4CB021691CA2E7C1007C7839 /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB021681CA2E7C1007C7839 /* 002.png */; };
+		4CB0216D1CA2E8F3007C7839 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB0216A1CA2E8F3007C7839 /* 003.png */; };
+		4CB0216E1CA2E8F3007C7839 /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB0216B1CA2E8F3007C7839 /* 004.png */; };
+		4CB0216F1CA2E8F3007C7839 /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB0216C1CA2E8F3007C7839 /* 005.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,6 +228,10 @@
 		4C9EA5881C96A63D007832DA /* JHDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDBManager.m; sourceTree = "<group>"; };
 		4C9EA5891C96A63D007832DA /* JHUpGrades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHUpGrades.h; sourceTree = "<group>"; };
 		4C9EA58A1C96A63D007832DA /* JHUpGrades.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHUpGrades.m; sourceTree = "<group>"; };
+		4CB021681CA2E7C1007C7839 /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 002.png; path = "../../../WB/image/QQ好友列表/icons/002.png"; sourceTree = "<group>"; };
+		4CB0216A1CA2E8F3007C7839 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 003.png; path = "../../../WB/image/QQ好友列表/icons/003.png"; sourceTree = "<group>"; };
+		4CB0216B1CA2E8F3007C7839 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 004.png; path = "../../../WB/image/QQ好友列表/icons/004.png"; sourceTree = "<group>"; };
+		4CB0216C1CA2E8F3007C7839 /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 005.png; path = "../../../WB/image/QQ好友列表/icons/005.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +304,10 @@
 			isa = PBXGroup;
 			children = (
 				4C9EA4D81C96A30E007832DA /* main.m */,
+				4CB021681CA2E7C1007C7839 /* 002.png */,
+				4CB0216A1CA2E8F3007C7839 /* 003.png */,
+				4CB0216B1CA2E8F3007C7839 /* 004.png */,
+				4CB0216C1CA2E8F3007C7839 /* 005.png */,
 				4C9EA50A1C96A5A6007832DA /* AppDelegate.h */,
 				4C9EA50B1C96A5A6007832DA /* AppDelegate.m */,
 				4C9EA50C1C96A5A6007832DA /* PrefixHeader.pch */,
@@ -582,7 +594,9 @@
 				4C9EA5AA1C96A63D007832DA /* tabbar_compose_icon_add@2x.png in Resources */,
 				4C9EA5CF1C96A63D007832DA /* tabbar_profile_highlighted@2x.png in Resources */,
 				4C9EA5C41C96A63D007832DA /* tabbar_music@3x.png in Resources */,
+				4CB021691CA2E7C1007C7839 /* 002.png in Resources */,
 				4C9EA5C31C96A63D007832DA /* tabbar_music@2x.png in Resources */,
+				4CB0216D1CA2E8F3007C7839 /* 003.png in Resources */,
 				4C9EA5CB1C96A63D007832DA /* tabbar_music_selected@2x.png in Resources */,
 				4C9EA5C11C96A63D007832DA /* tabbar_more_highlighted@2x.png in Resources */,
 				4C9EA5121C96A5BC007832DA /* Assets.xcassets in Resources */,
@@ -591,6 +605,8 @@
 				4C9EA5C51C96A63D007832DA /* tabbar_music_highlighted@2x.png in Resources */,
 				4C9EA5B71C96A63D007832DA /* tabbar_home_highlighted@3x.png in Resources */,
 				4C9EA5AB1C96A63D007832DA /* tabbar_compose_icon_add@3x.png in Resources */,
+				4CB0216E1CA2E8F3007C7839 /* 004.png in Resources */,
+				4CB0216F1CA2E8F3007C7839 /* 005.png in Resources */,
 				4C9EA5C61C96A63D007832DA /* tabbar_music_highlighted@3x.png in Resources */,
 				4C9EA5D01C96A63D007832DA /* tabbar_profile_highlighted@3x.png in Resources */,
 				4C9EA5CA1C96A63D007832DA /* tabbar_music_person@3x.png in Resources */,
@@ -806,8 +822,9 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Pikaka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.Pikaka;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com1.Pikaka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -822,8 +839,9 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Pikaka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com.Pikaka;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testWebView.com1.Pikaka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

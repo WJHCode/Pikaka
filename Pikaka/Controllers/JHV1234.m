@@ -41,6 +41,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 [self dismissViewControllerAnimated:YES completion:^{
@@ -59,7 +60,13 @@
 }
 */
 -(void)btnClick{
-    self.myBlock(self.myText.text);
+//    if (self.myBlock) {
+//        self.myBlock(self.myText.text);
+//    }
+    if ([self.delegate respondsToSelector:@selector(areaNumber:andAreaName:)]) {
+        [self.delegate areaNumber:self.myText.text andAreaName:nil];
+    }
+    
     [self.navigationController popViewControllerAnimated:YES];
 }
 @end

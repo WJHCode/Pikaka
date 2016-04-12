@@ -7,7 +7,6 @@
 //
 
 #import "JHBaseViewController.h"
-
-@interface JHMeView : JHBaseViewController
+@interface JHMeView : UIViewController
 
 @end
