@@ -1,18 +1,18 @@
 //
-//  PikakaUITests.m
-//  PikakaUITests
+//  PiKaKaUITests.m
+//  PiKaKaUITests
 //
-//  Created by 王建华 on 16/3/14.
-//  Copyright © 2016年 王建华. All rights reserved.
+//  Created by 王建华 on 15/11/10.
+//  Copyright © 2015年 王建华. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface PikakaUITests : XCTestCase
+@interface PiKaKaUITests : XCTestCase
 
 @end
 
-@implementation PikakaUITests
+@implementation PiKaKaUITests
 
 - (void)setUp {
     [super setUp];

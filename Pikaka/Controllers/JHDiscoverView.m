@@ -17,9 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor orangeColor];
-    
-    
+    self.view.backgroundColor = [UIColor blueColor];
     
     
 }
@@ -39,7 +37,7 @@
     [self.label setText:@"欢迎来到我的世界，我的世界里有各种各样的神奇的事情，又让你惊奇的，又惊讶的，有惊吓的！！！"];
     [self.label sizeToFit];
     CGSize labelSize = [self.label.text sizeWithFont:font];
-    CGFloat offSet = labelSize.width + 35;
+    CGFloat offSet = labelSize.width;
     
     self.label.frame = CGRectMake(50, 69, offSet, 20);
     [UIView animateWithDuration:10.0 delay:0 options:UIViewAnimationOptionRepeat|UIViewAnimationOptionTransitionFlipFromRight|UIViewAnimationOptionCurveLinear animations:^{

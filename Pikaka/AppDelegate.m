@@ -13,6 +13,7 @@
 #import "JHAddView.h"
 #import "JHDiscoverView.h"
 #import "JHMeView.h"
+#import "JHMapView.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor purpleColor];
     JHHomeTabBarController *homeView = [JHHomeTabBarController new];
     
     
@@ -59,8 +59,8 @@
     UINavigationController *nav = [UINavigationController new];
     [nav pushViewController:homeView animated:YES];
     
-//    JHMapView *mapView = [[JHMapView alloc] init];
-    self.window.rootViewController = nav;
+    JHMapView *mapView = [[JHMapView alloc] init];
+    self.window.rootViewController = mapView;
     [self.window makeKeyAndVisible];
 
     return YES;
