@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0710"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C9EA4D31C96A30E007832DA"
-               BuildableName = "Pikaka.app"
-               BlueprintName = "Pikaka"
-               ReferencedContainer = "container:Pikaka.xcodeproj">
+               BlueprintIdentifier = "4C857F2D1BF1D76300328C51"
+               BuildableName = "PiKaKa.app"
+               BlueprintName = "PiKaKa"
+               ReferencedContainer = "container:PiKaKa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C9EA4EC1C96A30E007832DA"
-               BuildableName = "PikakaTests.xctest"
-               BlueprintName = "PikakaTests"
-               ReferencedContainer = "container:Pikaka.xcodeproj">
+               BlueprintIdentifier = "4C857F461BF1D76300328C51"
+               BuildableName = "PiKaKaTests.xctest"
+               BlueprintName = "PiKaKaTests"
+               ReferencedContainer = "container:PiKaKa.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C9EA4F71C96A30E007832DA"
-               BuildableName = "PikakaUITests.xctest"
-               BlueprintName = "PikakaUITests"
-               ReferencedContainer = "container:Pikaka.xcodeproj">
+               BlueprintIdentifier = "4C857F511BF1D76300328C51"
+               BuildableName = "PiKaKaUITests.xctest"
+               BlueprintName = "PiKaKaUITests"
+               ReferencedContainer = "container:PiKaKa.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C9EA4D31C96A30E007832DA"
-            BuildableName = "Pikaka.app"
-            BlueprintName = "Pikaka"
-            ReferencedContainer = "container:Pikaka.xcodeproj">
+            BlueprintIdentifier = "4C857F2D1BF1D76300328C51"
+            BuildableName = "PiKaKa.app"
+            BlueprintName = "PiKaKa"
+            ReferencedContainer = "container:PiKaKa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C9EA4D31C96A30E007832DA"
-            BuildableName = "Pikaka.app"
-            BlueprintName = "Pikaka"
-            ReferencedContainer = "container:Pikaka.xcodeproj">
+            BlueprintIdentifier = "4C857F2D1BF1D76300328C51"
+            BuildableName = "PiKaKa.app"
+            BlueprintName = "PiKaKa"
+            ReferencedContainer = "container:PiKaKa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C9EA4D31C96A30E007832DA"
-            BuildableName = "Pikaka.app"
-            BlueprintName = "Pikaka"
-            ReferencedContainer = "container:Pikaka.xcodeproj">
+            BlueprintIdentifier = "4C857F2D1BF1D76300328C51"
+            BuildableName = "PiKaKa.app"
+            BlueprintName = "PiKaKa"
+            ReferencedContainer = "container:PiKaKa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
